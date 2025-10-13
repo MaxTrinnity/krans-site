@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krans</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --navy:#0B1F3A; --gold:#C9A227; --ivory:#FAF7EE; --ink:#111;
+      --card:#F6F1E3;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--ivory);color:var(--ink);font-family:Inter,system-ui}
+    a{color:inherit}
+    header{background:var(--navy);color:var(--ivory);padding:18px 20px;display:flex;gap:24px;align-items:center;justify-content:center}
+    header a{color:var(--ivory);text-decoration:none;font-weight:600;opacity:.9}
+    header a:hover{opacity:1}
+    .hero{background:var(--navy);color:var(--ivory);padding:72px 16px 56px}
+    .wrap{max-width:1040px;margin:0 auto;padding:0 16px;text-align:center}
+    h1{font-family:"Cormorant Garamond",serif;font-size:56px;margin:6px 0 12px}
+    .lead{opacity:.9;font-size:18px;max-width:720px;margin:0 auto}
+    .section{padding:48px 16px}
+    .grid{max-width:1040px;margin:0 auto;display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+    .card{background:var(--card);border:1px solid rgba(11,31,58,.15);border-radius:14px;padding:22px;text-align:left}
+    .card h3{font-family:"Cormorant Garamond",serif;margin:0 0 6px;font-size:28px;color:var(--navy)}
+    .btn{display:inline-block;margin-top:12px;padding:12px 16px;border-radius:10px;border:1px solid var(--gold);color:var(--navy);background:rgba(201,162,39,.08);text-decoration:none;font-weight:600}
+    .btn:hover{background:rgba(201,162,39,.14)}
+    footer{padding:40px 16px;text-align:center;color:#555}
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/">KRANS</a>
+    <a href="/mysteries.html">Mysteries</a>
+    <a href="/store.html">Store</a>
+    <a href="/contact.html">Contact</a>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Krans</h1>
+      <p class="lead">Handcrafted rosaries and daily prayer resources. Pray, reflect, and walk with Mary through the life of Christ.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid">
+      <div class="card">
+        <h3>Daily Mysteries</h3>
+        <p>Pray with audio for each mystery. Filter by day.</p>
+        <a class="btn" href="/mysteries.html">Open Mysteries</a>
+      </div>
+      <div class="card">
+        <h3>Store</h3>
+        <p>Rosaries, accessories, and devotional guides.</p>
+        <a class="btn" href="/store.html">Visit Store</a>
+      </div>
+      <div class="card">
+        <h3>Contact</h3>
+        <p>Questions or custom requests? We’re here to help.</p>
+        <a class="btn" href="/contact.html">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© Krans</footer>
+</body>
+</html>
