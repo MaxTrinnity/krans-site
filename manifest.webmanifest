@@ -2,7 +2,7 @@
   "name": "Krans",
   "short_name": "Krans",
   "description": "Rosary prayers, daily mysteries, and audio guides.",
-  "start_url": "https://krans.is/mysteries",
+  "start_url": "/mysteries",
   "scope": "/",
   "display": "standalone",
   "background_color": "#FFFFFF",
